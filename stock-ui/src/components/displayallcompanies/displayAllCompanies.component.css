@@ -1,0 +1,16 @@
+.all-comapnies-container{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.company-detail-row{
+    border: 1px solid purple;
+    background-color: black;
+    padding:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.delete-icon{
+    cursor: pointer;
+}

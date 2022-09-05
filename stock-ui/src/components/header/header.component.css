@@ -1,0 +1,32 @@
+.company-logo{
+    height:40px;
+    width:40px;
+}
+
+.header-block{
+    display: grid;
+    grid-template-columns:1fr 2fr 2fr 3fr 1fr;
+    background-color: black;
+    width: 100%;
+}
+
+.add-company,.list-companies,.search-company,.app-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border: 1px solid white;
+    cursor: pointer;
+    padding:10px;
+}
+
+.logout-btn{
+    border: 1px solid white;
+    color:purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    cursor: pointer;
+    padding:10px;
+}
